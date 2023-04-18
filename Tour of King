@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int t;
+	scanf("%d", &t);
+	while(t--){
+	    int n, m;
+	    scanf("%d %d", &n, &m);
+	    int res = (n*5)+(m*7);
+	    printf("%d\n", res);
+	}
+	return 0;
+}
